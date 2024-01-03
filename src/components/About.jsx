@@ -6,7 +6,7 @@ const About = () => {
     <>
       <img
         style={{ height: "60vh", float: "left" }}
-        src="./notepng.JPG"
+        src="../../notepng.JPG"
         alt=""
       />
       <div className="container">
@@ -70,7 +70,7 @@ const About = () => {
           >
             <img
               style={{ height: "30px", cursor: "pointer" }}
-              src="../email.jpg"
+              src="../../email.jpg"
               alt=""
             />
           </a>
@@ -81,7 +81,7 @@ const About = () => {
           >
             <img
               style={{ height: "30px", cursor: "pointer" }}
-              src="../linkedin.jpg"
+              src="../../linkedin.jpg"
               alt=""
             />
           </a>
@@ -92,7 +92,7 @@ const About = () => {
           >
             <img
               style={{ height: "30px", cursor: "pointer" }}
-              src="../github.jpg"
+              src="../../github.jpg"
               alt=""
             />
           </a>
