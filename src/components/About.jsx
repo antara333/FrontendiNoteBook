@@ -1,12 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import noteImg from "../../notepng.jpg";
 const About = () => {
   const navigate = useNavigate();
   return (
     <>
       <img
         style={{ height: "60vh", float: "left" }}
-        src="../../notepng.JPG"
+        src={noteImg}
         alt=""
       />
       <div className="container">
