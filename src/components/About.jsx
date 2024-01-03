@@ -1,6 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import noteImg from "../../notepng.jpg";
+import emailImg from "../../email.jpg";
+import githunImg from "../../github.jpg"
+import linkedinImg from "../../linkedin.jpg"
 const About = () => {
   const navigate = useNavigate();
   return (
@@ -71,7 +74,7 @@ const About = () => {
           >
             <img
               style={{ height: "30px", cursor: "pointer" }}
-              src="../../email.jpg"
+              src= {emailImg}
               alt=""
             />
           </a>
@@ -82,7 +85,7 @@ const About = () => {
           >
             <img
               style={{ height: "30px", cursor: "pointer" }}
-              src="../../linkedin.jpg"
+              src={linkedinImg}
               alt=""
             />
           </a>
@@ -93,7 +96,7 @@ const About = () => {
           >
             <img
               style={{ height: "30px", cursor: "pointer" }}
-              src="../../github.jpg"
+              src= {githunImg}
               alt=""
             />
           </a>
