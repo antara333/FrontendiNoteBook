@@ -8,7 +8,7 @@ const Navbar = (props) => {
     props.showAlert("Logout successfully!");
   };
   return (
-    <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav className="navbar navbar-expand-lg " style={{background:"rgb(197 58 125)"}}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           {props.title}
